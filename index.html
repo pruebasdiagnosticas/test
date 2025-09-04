@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pruebas Diagnósticas Inglés</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url("fondo.png") no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      gap: 50px;
+    }
+    button {
+      width: 300px;
+      height: 80px;
+      font-size: 22px;
+      font-weight: bold;
+      color: white;
+      background: #2e7d32; /* Verde */
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+    }
+    button:hover {
+      background: #1b5e20; /* Verde más oscuro */
+      box-shadow: 0px 0px 18px rgba(0, 255, 0, 0.6);
+    }
+    .marca {
+      position: absolute;
+      bottom: 12px;
+      right: 15px;
+      font-size: 12px;
+      color: gray;
+      opacity: 0.7;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button onclick="abrirQuinto()">QUINTO GRADO</button>
+    <button onclick="abrirSeptimo()">SEPTIMO GRADO</button>
+    <button onclick="abrirNoveno()">NOVENO GRADO</button>
+  </div>
+  <div class="marca">- Designed By Alejandro Pizarro P. -</div>
+
+  <script>
+    function abrirQuinto() {
+      window.open("https://ee.kobotoolbox.org/x/cb84UGiU", "_blank");
+      window.open("https://www.oxfordenglishtesting.com/oaslms/login.aspx", "_blank");
+    }
+    function abrirSeptimo() {
+      window.open("https://ee.kobotoolbox.org/x/wutlwtCb", "_blank");
+      window.open("https://richmondlp.com/login", "_blank");
+    }
+    function abrirNoveno() {
+      window.open("https://ee.kobotoolbox.org/x/wutlwtCb", "_blank");
+      window.open("https://richmondlp.com/login", "_blank");
+    }
+  </script>
+</body>
+</html>
